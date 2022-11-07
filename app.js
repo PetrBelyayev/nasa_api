@@ -1,6 +1,6 @@
 const API_KEY = 'tit7lwFfthL8XXx49ZaofDBiTO8hBU1Y7cAJyMqe'
 
-const res = axios.get(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&count=15`)
+const res = axios.get(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&count=50`)
     .then(res => {
         document.querySelector("footer").style.position = "relative"
         document.querySelector(".preloader").style.display = "none"
